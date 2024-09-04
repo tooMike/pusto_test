@@ -28,6 +28,12 @@ cd pusto_test
 docker compose up
 ```
 
+При первом запуске выполнить (для загрузки тестовых данных):
+
+```
+docker compose exec backend python manage.py import_data
+```
+
 Проект будет доступен по адресу:
 
 ```
